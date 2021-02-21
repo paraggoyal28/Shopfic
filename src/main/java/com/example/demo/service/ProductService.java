@@ -83,7 +83,7 @@ public class ProductService {
          */
     }
     public void updateProduct(ProductDetailed prod) {
-        //TODO
+    
         ProductDAO pd = new ProductDAO();
         pd.connect();
         pd.updateProduct(prod);
